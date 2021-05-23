@@ -19,6 +19,10 @@ app.get("/",function(req,res){
   res.render("home");
 });
 
+app.get("/contact-us",function(req,res){
+  res.render("contact");
+});
+
 
 
 
